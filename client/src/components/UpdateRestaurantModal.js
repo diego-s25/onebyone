@@ -26,7 +26,7 @@ const UpdateRestaurantModal = (props) => {
 			location,
 			price_range: priceRange
 		});
-		toggle();
+		toggle(e);
 		window.location.reload(false);
 	}
 
